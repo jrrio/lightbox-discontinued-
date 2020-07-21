@@ -8,7 +8,7 @@ This example uses Javascript to create an overlay div and show an image inside a
 3. Refer to jrLightbox_0.6.js in the end of your page's body tag (take a look at the source of this example):
    <script type="text/javascript" src="includes/jrLightbox_0.6.js"></script>
 4. A link (<a> tag) in the page will do the trick:
-   <a href="FullSizedImage.jpg" rel="lightbox" title="Caption"><img src="Thumbnail.jpg" /></a>
+   &lt;a href=&quot;FullSizedImage.jpg&quot; rel=&quot;lightbox&quot; title=&quot;Caption&quot;&gt;&lt;img src=&quot;Thumbnail.jpg&quot;  /&gt;&lt;/a&gt;
 
 It's very important to define the following attributes for each link as below:
 - href - the image you want to display in the LightBox;
