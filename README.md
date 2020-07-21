@@ -1,5 +1,5 @@
 # lightbox
-An old Lightbox made with pure JavaScript and CSS
+An old Lightbox project made in 2011 with pure JavaScript and CSS
 
 This example uses Javascript to create an overlay div and show an image inside another div called lightbox. Please follow the steps below:
 
