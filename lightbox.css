@@ -1,0 +1,79 @@
+/*
+ Styles used in JR's LightBox model.
+ Modified by Joao Rodrigues - 2011-05-06
+ http://www.jrfaq.com.br/lightbox.htm
+*/
+
+#closeGIF {
+  position: absolute;
+  z-index: 200;
+  right: 2px;
+  top: -5px;
+}
+
+#loadingGIF {
+  position: absolute;
+  z-index: 150;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  border: none;
+  background-color: #000000;
+  opacity: 0.8; /* Major browsers except IE */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /* IE8 */
+  filter: alpha(opacity=80); /* IE7 */
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+}
+
+#overlay img { border: none; }
+
+#lightbox {
+  position: absolute;
+  display: none;
+  background-color:#eeeeee;
+  padding: 15px 10px 10px;
+  border-bottom: 2px solid #666666;
+  border-right: 2px solid #666666;
+  z-index: 110;
+  font: 1em Georgia, "Times New Roman", Times, serif;
+}
+
+#lightbox img {
+  border: none;
+  clear: both;
+}
+
+#lightboxDetails {
+  padding-top: 10px;
+}  
+
+#lightboxCaption {
+  display: block;
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: auto;
+}
+
+#lightboxCloseMsg {
+  position: absolute;
+  z-index: 205;
+  top: -2px;
+  right: 22px;
+  margin:0;
+  padding:0;
+  float: right;
+  width:auto;
+}
+
+#lightbox a:link, #lightbox a:visited, #lightbox a:hover, #lightbox a:active {
+  cursor: pointer;
+  color: #555555;
+  text-decoration: none;
+}
