@@ -11,7 +11,8 @@ This example uses Javascript to create an overlay div and show an image inside a
    <a href="FullSizedImage.jpg" rel="lightbox" title="Caption"><img src="Thumbnail.jpg" /></a>
 
 It's very important to define the following attributes for each link as below:
-— href - the image you want to display in the LightBox;
-— title - the image's caption to be shown in the LightBox;
-— rel - this must contain the word "lightbox".
+- href - the image you want to display in the LightBox;
+- title - the image's caption to be shown in the LightBox;
+- rel - this must contain the word "lightbox".
+
 Please follow the comments in the .js file to understand how the code works.
